@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Blitz livre vos colis, repas et commandes à Lomé, 7 jours sur 7. Un tarif clair, une livraison rapide et un contact simple sur WhatsApp."
+    />
+    <meta name="theme-color" content="#071a32" />
+    <title>Blitz — La ville livre vite, nous livrons mieux</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Navigation principale">
+        <a class="brand" href="#accueil" aria-label="Blitz, accueil">
+          <span class="brand-mark" aria-hidden="true">B<span>.</span></span>
+          <span class="brand-name">blitz<span>livraison</span></span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+          <span class="sr-only">Ouvrir le menu</span>
+          <span></span><span></span>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="#services">Nos services</a>
+          <a href="#tarifs">Tarifs</a>
+          <a href="#comment-ca-marche">Comment ça marche</a>
+          <a class="nav-cta" href="https://wa.me/22892509487?text=Bonjour%20Blitz%2C%20je%20souhaite%20organiser%20une%20livraison." target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 3.5A11.8 11.8 0 0 0 12.1 0C5.6 0 .3 5.3.3 11.8c0 2.1.6 4.1 1.6 5.9L0 24l6.4-1.7a11.8 11.8 0 0 0 5.7 1.5h.1c6.5 0 11.8-5.3 11.8-11.8 0-3.2-1.2-6.2-3.5-8.5ZM12.1 21.8a9.9 9.9 0 0 1-5-1.4l-.4-.2-3.8 1 1-3.7-.3-.4a9.8 9.8 0 1 1 8.5 4.7Zm5.4-7.4c-.3-.1-1.7-.9-2-1-.3-.1-.5-.1-.7.2l-.9 1.1c-.2.2-.3.2-.6.1-1.6-.8-2.6-1.5-3.6-3.3-.3-.5.3-.5.8-1.4.1-.2 0-.4 0-.5l-.9-2.1c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.1 3c.1.2 2 3 4.8 4.2 1.8.8 2.5.9 3.4.8.5-.1 1.7-.7 2-1.4.2-.7.2-1.3.1-1.4-.1-.2-.3-.3-.6-.4Z"/></svg>
+            Nous contacter
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="accueil">
+        <div class="hero-glow" aria-hidden="true"></div>
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <div class="availability"><span></span> À Lomé, tous les jours</div>
+            <h1>Vos livraisons.<br /><span>En mode Blitz.</span></h1>
+            <p class="hero-slogan">La ville livre vite, nous livrons mieux.</p>
+            <p class="hero-description">
+              Un colis, une commande ou un document à faire partir ? On s’occupe du trajet,
+              vous gardez l’esprit tranquille.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="https://wa.me/22892509487?text=Bonjour%20Blitz%2C%20je%20souhaite%20organiser%20une%20livraison." target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 3.5A11.8 11.8 0 0 0 12.1 0C5.6 0 .3 5.3.3 11.8c0 2.1.6 4.1 1.6 5.9L0 24l6.4-1.7a11.8 11.8 0 0 0 5.7 1.5h.1c6.5 0 11.8-5.3 11.8-11.8 0-3.2-1.2-6.2-3.5-8.5ZM12.1 21.8a9.9 9.9 0 0 1-5-1.4l-.4-.2-3.8 1 1-3.7-.3-.4a9.8 9.8 0 1 1 8.5 4.7Zm5.4-7.4c-.3-.1-1.7-.9-2-1-.3-.1-.5-.1-.7.2l-.9 1.1c-.2.2-.3.2-.6.1-1.6-.8-2.6-1.5-3.6-3.3-.3-.5.3-.5.8-1.4.1-.2 0-.4 0-.5l-.9-2.1c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.1 3c.1.2 2 3 4.8 4.2 1.8.8 2.5.9 3.4.8.5-.1 1.7-.7 2-1.4.2-.7.2-1.3.1-1.4-.1-.2-.3-.3-.6-.4Z"/></svg>
+                Commander sur WhatsApp
+              </a>
+              <a class="button button-ghost" href="#tarifs">Voir les tarifs <span aria-hidden="true">↓</span></a>
+            </div>
+            <div class="hero-trust">
+              <div class="trust-icon" aria-hidden="true">✦</div>
+              <p><strong>Simple et transparent</strong><br />Le tarif est confirmé avant le départ.</p>
+            </div>
+          </div>
+
+          <div class="hero-visual" aria-label="Illustration d’un livreur Blitz à moto en route à Lomé">
+            <div class="visual-orbit orbit-one"></div>
+            <div class="visual-orbit orbit-two"></div>
+            <div class="city-label"><span class="pin">●</span> LOMÉ, TOGO</div>
+            <div class="speed-card"><span class="speed-icon">↗</span><span><strong>En route !</strong><small>Votre livraison est lancée</small></span></div>
+            <svg class="delivery-art" viewBox="0 0 520 500" role="img" aria-label="Illustration d'un livreur Blitz sur son scooter">
+              <defs>
+                <linearGradient id="scooter" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#39e1ed"/><stop offset="1" stop-color="#00a9c4"/></linearGradient>
+                <linearGradient id="box" x1="0" x2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#e8f9fc"/></linearGradient>
+                <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="10"/></filter>
+              </defs>
+              <ellipse cx="276" cy="424" rx="172" ry="22" fill="#00d4e9" opacity=".15" filter="url(#softShadow)"/>
+              <path d="M72 408c72-24 266-20 369 1" fill="none" stroke="#61dce8" stroke-opacity=".2" stroke-width="2" stroke-dasharray="7 9"/>
+              <circle cx="173" cy="386" r="48" fill="#09182b"/><circle cx="173" cy="386" r="28" fill="none" stroke="#a2f2f5" stroke-width="5"/><circle cx="173" cy="386" r="7" fill="#a2f2f5"/>
+              <circle cx="368" cy="386" r="48" fill="#09182b"/><circle cx="368" cy="386" r="28" fill="none" stroke="#a2f2f5" stroke-width="5"/><circle cx="368" cy="386" r="7" fill="#a2f2f5"/>
+              <path d="M130 366h48l39-78 58 2 38 69 49 1-8 28h-35c-3-25-21-44-48-44-26 0-45 18-48 43h-43c-3-24-21-43-48-43-15 0-27 7-36 17z" fill="url(#scooter)"/>
+              <path d="M223 290c20-1 42 2 56 15l37 50-45-2-42-32-20 43-26-5z" fill="#e8feff"/>
+              <path d="M281 305h55l19 34h-54z" fill="#12bfd0"/>
+              <path d="m228 289-15-41 45-7 34 37-23 19z" fill="#ffcf9c"/>
+              <path d="M207 257c-1-33 24-59 55-59 30 0 50 19 52 47l-21 30-47 8-27-15z" fill="#102542"/>
+              <path d="M225 237c8-30 42-39 66-17l-5 18-57 13z" fill="#39e1ed"/>
+              <path d="M231 247c7-14 23-20 37-13 9 5 14 15 13 25l-9 20c-4 10-15 14-25 9l-12-8-7-16z" fill="#ae684b"/>
+              <path d="M245 277c20-4 38 3 48 18l-14 40-54-13z" fill="#102542"/>
+              <path d="m218 299-49 20-24-18 9-12 27 10 27-26z" fill="#ae684b"/>
+              <path d="m304 299 31 18 29-2 5 13-34 8-43-15z" fill="#ae684b"/>
+              <path d="M134 265h92v64h-92z" rx="8" fill="url(#box)"/>
+              <path d="M149 280h63" stroke="#071a32" stroke-opacity=".1" stroke-width="3"/>
+              <path d="M169 296h21v21h-21z" fill="#071a32"/>
+              <path d="m174 301 5-4 5 4v8l-5 4-5-4z" fill="#31dce7"/>
+              <path d="M316 351h18" stroke="#f8e4a5" stroke-width="8" stroke-linecap="round"/>
+              <path d="m378 337 20-23" stroke="#d8fcff" stroke-width="5" stroke-linecap="round"/>
+              <path d="M108 356h20m-35 14h17m-39 0h10" stroke="#a4eff2" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+              <circle cx="97" cy="177" r="3" fill="#34dce8"/><circle cx="411" cy="229" r="4" fill="#34dce8"/><circle cx="384" cy="137" r="2" fill="#fff"/>
+              <path d="M86 225h23m-11-11v23" stroke="#31dce7" stroke-width="2" opacity=".55"/>
+              <path d="m414 157 4 8 8 4-8 4-4 8-4-8-8-4 8-4z" fill="#f6c75c"/>
+            </svg>
+            <div class="route-line" aria-hidden="true"><span></span><i></i></div>
+            <div class="hero-caption"><span class="caption-dot"></span> Votre coursier est prêt à partir</div>
+          </div>
+        </div>
+        <div class="hero-bottom container">
+          <span>POUR CHAQUE BESOIN</span>
+          <div class="audiences"><span>Particuliers</span><i></i><span>Commerçants</span><i></i><span>Entreprises</span></div>
+          <a href="#services" aria-label="Découvrir les services">↓</a>
+        </div>
+      </section>
+
+      <section class="service-strip" id="services">
+        <div class="container service-grid">
+          <article class="service-card"><span class="service-number">01</span><span class="service-icon" aria-hidden="true">⌂</span><h3>Pour les particuliers</h3><p>Un achat, un cadeau ou un petit colis ? Il arrive à bon port.</p></article>
+          <article class="service-card"><span class="service-number">02</span><span class="service-icon" aria-hidden="true">▤</span><h3>Pour les commerçants</h3><p>Faites livrer vos commandes et prenez soin de vos clients.</p></article>
+          <article class="service-card"><span class="service-number">03</span><span class="service-icon" aria-hidden="true">⌘</span><h3>Pour les entreprises</h3><p>Documents et colis professionnels, pris en charge simplement.</p></article>
+        </div>
+      </section>
+
+      <section class="pricing-section section-pad" id="tarifs">
+        <div class="container pricing-layout">
+          <div class="section-copy">
+            <span class="eyebrow"><span></span> SANS SURPRISE</span>
+            <h2>Un tarif clair.<br /><span>Avant chaque départ.</span></h2>
+            <p>La distance entre le point A et le point B détermine le prix. Vous le connaissez et le confirmez sur WhatsApp avant que le livreur ne se mette en route.</p>
+            <div class="pricing-rules">
+              <div class="rule"><span class="rule-icon">↗</span><span>Jusqu’à <strong>3,5 km</strong></span><strong class="rule-price">500 <small>FCFA</small></strong></div>
+              <div class="rule"><span class="rule-icon">↗</span><span>Au-delà de <strong>3,5 km</strong></span><strong class="rule-price">150 <small>FCFA / km</small></strong></div>
+            </div>
+            <p class="price-note">Pour plus de 3,5 km, le montant est calculé à 150 FCFA par kilomètre parcouru.</p>
+          </div>
+          <div class="calculator-card">
+            <div class="calculator-head"><span class="calculator-icon">✳</span><div><h3>Estimez votre livraison</h3><p>Une estimation en quelques secondes.</p></div></div>
+            <label for="address">Adresse de livraison</label>
+            <input id="address" type="text" placeholder="Ex. : Quartier Tokoin, Lomé" autocomplete="street-address" />
+            <label for="distance">Distance estimée <span>(en km)</span></label>
+            <div class="distance-input"><input id="distance" type="number" min="0.1" step="0.1" placeholder="Ex. : 4,2" inputmode="decimal" /><span>km</span></div>
+            <p class="calculator-hint">Vous pourrez préciser les adresses exactes sur WhatsApp.</p>
+            <div class="estimate" aria-live="polite"><span>Tarif estimé</span><strong id="estimate-price">— <small>FCFA</small></strong></div>
+            <a class="button button-primary calculator-cta" id="order-link" href="https://wa.me/22892509487?text=Bonjour%20Blitz%2C%20je%20souhaite%20organiser%20une%20livraison." target="_blank" rel="noopener noreferrer">Confirmer sur WhatsApp <span aria-hidden="true">↗</span></a>
+            <p class="estimate-disclaimer">Le tarif final est confirmé avec Blitz avant la livraison.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="steps-section section-pad" id="comment-ca-marche">
+        <div class="container">
+          <div class="steps-heading"><div><span class="eyebrow"><span></span> TOUT SIMPLEMENT</span><h2>Vous écrivez.<br /><span>On s’occupe du reste.</span></h2></div><p>Pas de formulaire compliqué, pas de mauvaise surprise. Votre livraison se prépare directement avec notre équipe.</p></div>
+          <div class="steps-grid">
+            <article class="step"><span class="step-count">01</span><span class="step-icon" aria-hidden="true">◉</span><h3>Un message WhatsApp</h3><p>Écrivez-nous avec votre demande de livraison.</p></article>
+            <article class="step"><span class="step-count">02</span><span class="step-icon" aria-hidden="true">⌖</span><h3>Vos adresses</h3><p>Indiquez le point de départ et le point d’arrivée.</p></article>
+            <article class="step"><span class="step-count">03</span><span class="step-icon" aria-hidden="true">✓</span><h3>Vous confirmez le prix</h3><p>On vous communique le tarif. Vous le validez.</p></article>
+            <article class="step step-last"><span class="step-count">04</span><span class="step-icon" aria-hidden="true">↗</span><h3>Le livreur part</h3><p>C’est confirmé : votre livraison est en route !</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="coverage-section">
+        <div class="container coverage-card">
+          <div class="coverage-copy"><span class="eyebrow"><span></span> NOTRE TERRAIN DE JEU</span><h2>Tout Lomé.<br /><span>Et rien de moins.</span></h2><p>Nous livrons partout dans la ville de Lomé. Notre zone de couverture s’étendra bientôt : pour le moment, votre adresse doit se trouver à Lomé.</p><div class="coverage-location"><span class="location-pin">⌖</span><span><strong>Basés à Forever</strong><small>Lomé, Togo</small></span></div></div>
+          <div class="map-illustration" aria-label="Carte stylisée de la zone de livraison à Lomé">
+            <div class="map-grid"></div><svg viewBox="0 0 500 350" role="img" aria-hidden="true"><path class="map-road" d="M38 269c78-40 112-34 166-88s90-84 160-67 69 48 116 40"/><path class="map-road secondary" d="M91 33c25 59 45 93 92 134s96 55 120 150"/><path class="map-road secondary" d="M32 164c57 3 100 22 137 56s69 44 139 48 112-1 162 29"/><path class="map-road" d="M249 20c-9 41-17 77-25 119s-12 87-6 190"/><path class="map-road secondary" d="M410 40c-43 35-79 71-103 111s-35 87-34 166"/><circle class="map-area" cx="263" cy="169" r="91"/><circle class="map-point" cx="263" cy="169" r="10"/><circle class="map-pulse" cx="263" cy="169" r="22"/><text x="282" y="174">LOMÉ</text><circle class="map-dot" cx="132" cy="111" r="4"/><circle class="map-dot" cx="376" cy="230" r="4"/><circle class="map-dot" cx="338" cy="82" r="4"/></svg>
+            <div class="map-label map-label-one">FOREVER <span>●</span></div><div class="map-label map-label-two">NOTRE ZONE DE LIVRAISON</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="hours-section">
+        <div class="container hours-row"><div class="hours-icon">◷</div><div class="hours-copy"><span class="eyebrow"><span></span> ON EST LÀ POUR VOUS</span><h2>Sept jours sur sept.</h2><p>Parce que les bonnes occasions de livrer n’attendent pas le lundi.</p></div><div class="hours-time"><strong>08h30 <span>—</span> 18h30</strong><span>Du lundi au dimanche</span></div></div>
+      </section>
+
+      <section class="final-cta">
+        <div class="cta-orb cta-orb-one"></div><div class="cta-orb cta-orb-two"></div>
+        <div class="container cta-inner"><span class="eyebrow"><span></span> VOTRE VILLE, NOTRE TERRAIN</span><h2>Prêt à livrer<br />en mode <span>Blitz ?</span></h2><p>Un message suffit pour commencer.</p><a class="button button-light" href="https://wa.me/22892509487?text=Bonjour%20Blitz%2C%20je%20souhaite%20organiser%20une%20livraison." target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 3.5A11.8 11.8 0 0 0 12.1 0C5.6 0 .3 5.3.3 11.8c0 2.1.6 4.1 1.6 5.9L0 24l6.4-1.7a11.8 11.8 0 0 0 5.7 1.5h.1c6.5 0 11.8-5.3 11.8-11.8 0-3.2-1.2-6.2-3.5-8.5ZM12.1 21.8a9.9 9.9 0 0 1-5-1.4l-.4-.2-3.8 1 1-3.7-.3-.4a9.8 9.8 0 1 1 8.5 4.7Z"/></svg> Écrivez-nous sur WhatsApp <span aria-hidden="true">↗</span></a></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-main">
+        <div class="footer-brand"><a class="brand" href="#accueil" aria-label="Blitz, retour à l’accueil"><span class="brand-mark">B<span>.</span></span><span class="brand-name">blitz<span>livraison</span></span></a><p>La ville livre vite,<br />nous livrons mieux.</p></div>
+        <div class="footer-column"><h3>Contact</h3><a href="https://wa.me/22892509487" target="_blank" rel="noopener noreferrer">WhatsApp : +228 92 50 94 87</a><a href="tel:+22892509487">Appeler : +228 92 50 94 87</a><span>Forever, Lomé — Togo</span></div>
+        <div class="footer-column"><h3>Horaires</h3><span>Tous les jours</span><span>08h30 à 18h30</span></div>
+        <div class="footer-column"><h3>Suivez Blitz</h3><a href="https://www.instagram.com/blitz.togo/" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a href="https://www.facebook.com/blitz.togo/" target="_blank" rel="noopener noreferrer">Facebook ↗</a><small class="social-note">Liens sociaux provisoires.</small></div>
+      </div>
+      <div class="container footer-bottom"><span>© <span id="year"></span> Blitz Livraison. Tous droits réservés.</span><a href="#accueil">Retour en haut ↑</a></div>
+    </footer>
+    <a class="whatsapp-float" href="https://wa.me/22892509487?text=Bonjour%20Blitz%2C%20je%20souhaite%20organiser%20une%20livraison." target="_blank" rel="noopener noreferrer" aria-label="Contacter Blitz sur WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 3.5A11.8 11.8 0 0 0 12.1 0C5.6 0 .3 5.3.3 11.8c0 2.1.6 4.1 1.6 5.9L0 24l6.4-1.7a11.8 11.8 0 0 0 5.7 1.5h.1c6.5 0 11.8-5.3 11.8-11.8 0-3.2-1.2-6.2-3.5-8.5ZM12.1 21.8a9.9 9.9 0 0 1-5-1.4l-.4-.2-3.8 1 1-3.7-.3-.4a9.8 9.8 0 1 1 8.5 4.7Zm5.4-7.4c-.3-.1-1.7-.9-2-1-.3-.1-.5-.1-.7.2l-.9 1.1c-.2.2-.3.2-.6.1-1.6-.8-2.6-1.5-3.6-3.3-.3-.5.3-.5.8-1.4.1-.2 0-.4 0-.5l-.9-2.1c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.1 3c.1.2 2 3 4.8 4.2 1.8.8 2.5.9 3.4.8.5-.1 1.7-.7 2-1.4.2-.7.2-1.3.1-1.4-.1-.2-.3-.3-.6-.4Z"/></svg></a>
+  </body>
+</html>
